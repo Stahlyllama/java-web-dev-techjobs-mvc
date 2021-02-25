@@ -23,18 +23,20 @@ tr:nth-child(odd) {
     margin-right: auto;
 }
 
-table.job-listing {
+table.job-listing table-dark{
     margin: 30px auto;
-    border: 1px solid #e4e4e4;
-    width: 80%;
+    border: 1px solid black;
+    width: 50%;
 }
 
 table.job-listing td:first-child {
     font-weight: bold;
+    border: 1px solid black;
 }
 
 table.job-listing td:last-child {
-    width: 80%;
+    width: 50%;
+    border: 1px solid black;
 }
 
 label {
